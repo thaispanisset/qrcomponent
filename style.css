@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    background: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.radius {
+    border-radius: 5%;
+}
+
+.component-body {
+    background: #fff;
+    width: 21%;
+    padding: 1%;
+}
+
+.component-body img {
+    width: 100%;
+}
+
+.title {
+    color: hsl(218, 44%, 22%);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.instructions {
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    padding: 0 4%;
+}
+
+@media screen and (max-width: 375px) {
+    .component-body {
+        width: 85%;
+        padding: 5%;
+    }
+}
